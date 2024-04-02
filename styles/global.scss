@@ -348,17 +348,16 @@ footer {
 }
 
 // whatsapp
-.whatssapp-icon{
+.whatsapp-icon {
+  display: flex;
+  top: 90%;
+  padding-left: 8px;
   position: fixed;
-  height: auto;
-  width: auto;
-  top:88vh;
-  right: 1%;
   z-index: 100;
 }
 
-.what{
-  height: 10vh;
+.what {
+  height: 8vh;
   width: auto;
 }
 
@@ -582,6 +581,21 @@ footer {
     }
   }
 
+  .contact .content .contact-deatils {
+    grid-template-columns: 100%;
+    margin-inline: auto;
+    grid-gap: 10px;
+
+    .box {
+      margin-inline: 5px;
+    }
+
+  }
+
+  .contact .content .left ul li {
+    margin: 0 10px;
+  }
+
 
 }
 
@@ -621,20 +635,6 @@ footer {
     }
   }
 
-  .contact .content .contact-deatils {
-    grid-template-columns: 100%;
-    margin-inline: auto;
-    grid-gap: 10px;
-
-    .box {
-      margin-inline: 5px;
-    }
-
-  }
-
-  .contact .content .left ul li {
-    margin: 0 10px;
-  }
 
 }
 
@@ -692,20 +692,22 @@ footer {
       }
     }
   }
-  .testimonial .cards p{
+
+  .testimonial .cards p {
     font-size: 2vh;
   }
 
-  .testimonial .cards .image .img-text h3{
+  .testimonial .cards .image .img-text h3 {
     font-size: 2.8vh;
-    
-  }
-  .testimonial .cards .image .img-text span{
-    font-size: 2vh;
-    
+
   }
 
-  .button-primary{
+  .testimonial .cards .image .img-text span {
+    font-size: 2vh;
+
+  }
+
+  .button-primary {
     font-size: 10px;
   }
 }

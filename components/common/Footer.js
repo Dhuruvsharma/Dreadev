@@ -19,10 +19,14 @@ const Footer = () => {
               <br />
               <br />
               <h3>
-                <Link href="https://wa.me/9910780895">+91 9910780895</Link>
+                <Link target="_blank" href="tel:+91-9910780895">
+                  +91 9910780895
+                </Link>
               </h3>
               <h3>
-                <Link href="https://wa.me/8920538806">+91 8920538806</Link>
+                <Link target="_blank" href="tel:+91-8920538806">
+                  +91 8920538806
+                </Link>
               </h3>
               <br />
               <button className="button-primary">
@@ -44,48 +48,51 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href="/">Web Design & Development</Link>
+                <Link href="/services/1">Web Design & Development</Link>
               </li>
               <li>
-                <Link href="/">Branding & Creative Services</Link>
+                <Link href="/services/2">Digital Marketing</Link>
               </li>
               <li>
-                <Link href="/">Digital Marketing</Link>
+                <Link href="/services/3">E-Commerce</Link>
               </li>
               <li>
-                <Link href="/">E-Commerce</Link>
+                <Link href="/services/4">randing & Creative Services</Link>
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className="connect">
                 <li>
-                  <Link href="/">
+                  <Link target="_blank" href="https://www.facebook.com/dreadev">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link target="_blank" href="https://twitter.com/dreadev">
                     <FaSquareXTwitter size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/dreadev"
+                  >
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link target="_blank" href="https://www.linkedin.com/dreadev">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link target="_blank" href="https://telegram.org/dreadev">
                     <FaTelegram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link target="_blank" href="https://www.skype.com/dreadev">
                     <FaSkype size={25} />
                   </Link>
                 </li>
