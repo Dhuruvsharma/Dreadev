@@ -2,7 +2,7 @@ import Link from "next/link";
 import { TitleLogo } from "./Title";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { FaSquareXTwitter, FaTelegram, FaSkype } from "react-icons/fa6";
+import { FaSquareXTwitter, FaDiscord, FaSkype } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -57,42 +57,57 @@ const Footer = () => {
                 <Link href="/services/3">E-Commerce</Link>
               </li>
               <li>
-                <Link href="/services/4">randing & Creative Services</Link>
+                <Link href="/services/4">Branding & Creative Services</Link>
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className="connect">
                 <li>
-                  <Link target="_blank" href="https://www.facebook.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/share/1XsJgWwxyy7mBeTi/?mibextid=qi2Omg"
+                  >
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href="https://twitter.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://x.com/wearedreadev?t=1Ian0UwI-z5uZtkKbgWR7w&s=08"
+                  >
                     <FaSquareXTwitter size={25} />
                   </Link>
                 </li>
                 <li>
                   <Link
                     target="_blank"
-                    href="https://www.instagram.com/dreadev"
+                    href="https://www.instagram.com/wearedreadev?utm_source=qr&igsh=MXN5bHY0d2pnZWRydg=="
                   >
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href="https://www.linkedin.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/drea-dev"
+                  >
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href="https://telegram.org/dreadev">
-                    <FaTelegram size={25} />
+                  <Link
+                    target="_blank"
+                    href="https://discord.com/channels/@dreadev"
+                  >
+                    <FaDiscord size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link target="_blank" href="https://www.skype.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://join.skype.com/invite/x7pj6tBtfzRI"
+                  >
                     <FaSkype size={25} />
                   </Link>
                 </li>

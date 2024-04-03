@@ -30,11 +30,11 @@ const About = () => {
               </p>
               <div className="grid-3">
                 <div className="box">
-                  <h1 className="indigo">4+</h1>
+                  <h1 className="indigo">2+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className="box">
-                  <h1 className="indigo">20+</h1>
+                  <h1 className="indigo">200+</h1>
                   <h3>Successful cases</h3>
                 </div>
               </div>

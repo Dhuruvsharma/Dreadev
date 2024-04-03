@@ -131,22 +131,34 @@ const Contact = () => {
               </div>
               <ul>
                 <li className="icon">
-                  <Link target="_blank" href="https://www.facebook.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/share/1XsJgWwxyy7mBeTi/?mibextid=qi2Omg"
+                  >
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li className="icon">
-                  <Link target="_blank" href="https://twitter.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://x.com/wearedreadev?t=1Ian0UwI-z5uZtkKbgWR7w&s=08"
+                  >
                     <FaSquareXTwitter size={25} />
                   </Link>
                 </li>
                 <li className="icon">
-                  <Link target="_blank" href="https://www.instagram.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/wearedreadev?utm_source=qr&igsh=MXN5bHY0d2pnZWRydg=="
+                  >
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li className="icon">
-                  <Link target="_blank" href="https://www.linkedin.com/dreadev">
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/drea-dev"
+                  >
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
